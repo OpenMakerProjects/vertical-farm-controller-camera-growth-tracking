@@ -1,0 +1,21 @@
+{
+  "id": 180,
+  "title": "Vertical Farm Controller Camera Growth Tracking",
+  "repository_slug": "vertical-farm-controller-camera-growth-tracking",
+  "category": "Smart Agriculture",
+  "platform": "STM32",
+  "platform_family": "arduino",
+  "difficulty": "Intermediate",
+  "estimated_hours": 20,
+  "connectivity": "LoRa",
+  "components": [
+    "load cell",
+    "pH sensor",
+    "solar charger"
+  ],
+  "scope": "Build a smart agriculture prototype that uses load cell, pH sensor, solar charger to capture repeatable crop-growth images. Include setup instructions, a circuit diagram, tested firmware, and sample output.",
+  "key_deliverable": "Camera Growth Tracking demonstration with repeatable test steps",
+  "mode": "closed_loop_control",
+  "entrypoint": "firmware/vertical-farm-controller-camera-growth-tracking/vertical-farm-controller-camera-growth-tracking.ino",
+  "roadmap_source": "openmaker-2100-project-roadmap.xlsx"
+}
